@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Mulish:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* #3772FF40
+ #00000040
+ #DF291540
+#FDC84040
+#7737FF3D
+#FF5B373D */
+:root {
+  --greenD-100: #cafcd9;
+  --greenD-200: #96fabe;
+  --greenD-300: #60f0a8;
+  --greenD-400: #38e19e;
+  --greenD-500: #00ce90;
+  --greenD-600: #1a9850;
+  --greenD-700: #009484;
+  --greenD-800: #007776;
+  --greenD-900: #005962;
+}
+p {
+  font-family: "Mulish", sans-serif;
+  }
+
+body{
+    background-color: #1D1D1D;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "Maven Pro", sans-serif;
+}
+
+/* Agrega estas reglas CSS a tu archivo styles/globals.css */
+/* Estilo para navegadores basados en WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background:  #1D1D1D;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #777;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #494647;
+}
+
+/* Estilo para Firefox
+scrollbar-width: thin;
+scrollbar-color: #888 #f1f1f1; */
+
+/* Aplicando estilos a un contenedor específico */
+.custom-scrollbar {
+  overflow-y: scroll;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 12px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+  border: 3px solid #f1f1f1;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
